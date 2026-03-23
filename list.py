@@ -7,5 +7,5 @@ names[1] = "ifeanyi"
 print(names)
 names.append("kingsley")
 print(names)
-names.insert[1, "ifeco"]
+names.insert(1, "ifeco")
 print(names)
