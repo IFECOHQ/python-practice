@@ -20,3 +20,6 @@ too_old = "promise"
 names.remove(too_old)
 print(names)
 print(f"\n{too_old.title()} is too old for me")
+bignames = ["ejiro", "ifeco", "kingsley", "promise"]
+bignames.sort(reverse=True)
+print(bignames)
