@@ -23,3 +23,11 @@ print(f"\n{too_old.title()} is too old for me")
 bignames = ["ejiro", "ifeco", "kingsley", "promise"]
 bignames.sort(reverse=True)
 print(bignames)
+cars = ["bmw", "audi", "benz", "toyota"]
+print(cars)
+print(sorted(cars))
+print(cars)
+cars.reverse()
+print(cars)
+len(cars)
+print(cars[1])
