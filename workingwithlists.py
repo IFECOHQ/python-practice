@@ -19,3 +19,18 @@ multiples = []
 for value in range(2, 10):
  multiples.append(value ** 2) 
 print(multiples)
+players = ["charles", "godwin", "emeka", "ifeanyi", "judith"]
+print(players[0:2])
+print(players[2:])
+print(players[-3:])
+print("here are the 1st 3 players in my team:")
+for player in players[-3:]:
+ print(player.title())
+my_food = ["egusi", "ogbono", "rice", "beans"]
+friends_food = my_food
+print("my favorite food are:")
+print(my_food)
+print("\nmy friend favorite foods are:")
+print(friends_food)
+my_food.append("jollof")
+print(my_food)
