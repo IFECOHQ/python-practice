@@ -13,11 +13,24 @@ elif age < 18:
 else: 
     price = 50  
 print(f"\nyour admission cost is {price}.") 
-requested_toppings = ["mushrooms", "extra cheese"] 
-if "mushrooms" in requested_toppings:
+requestedd_toppings = ["mushrooms", "extra cheese"] 
+if "mushrooms" in requestedd_toppings:
     print("\nadding mushroom")  
-if "extra cheese" in requested_toppings:
+if "extra cheese" in requestedd_toppings:
     print("adding extra cheese")
-if "pepperoni" in requested_toppings:
+if "pepperoni" in requestedd_toppings:
     print("adding pepperoni")  
 print("\nfinished making your pizza")
+available_toppings = ["shoe", "car", "cake", "peanut", "sugar"]
+requested_toppings = ["car", "cake", "juice"]
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print(f"adding {requested_topping}")
+    else:
+        print(f"sorry, we don't have {requested_topping}") 
+requested_cars = []  
+if requested_cars:
+    for requested_car in requested_cars:
+        print(f"adding {requested_car}!")
+else:
+        print("are you sure you don't want a car")   
