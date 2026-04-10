@@ -35,3 +35,32 @@ for key, value in user_0.items():
 
 for name, language in favourite_languages.items():
     print(f"{name.title()}'s favourite language is {language.title()}")
+for name in sorted(favourite_languages.keys()):
+    print(f"{name.title()}, thank you for participating")
+
+print("\nthe following languages have been taken:") 
+for language in favourite_languages.keys():
+    print(language.title())
+
+alien_1 = {"color": "blue", "points": 10}
+alien_2 = {"color": "red", "points": 15}
+
+aliens = [alien_0, alien_1, alien_2]
+for alien in aliens:
+    print(alien)
+# make an empty list of monsters
+monsters = []
+# make 30 new monsters 
+for monster_number in range(20):
+    new_monster = {"colour": "pink", "speed": "fast", "points": 6}
+    monsters.append(new_monster)
+for monster in monsters[:5]:
+    print(monster)
+for monster in monsters[:3]:
+    if monster["colour"] == "pink":
+        monster["colour"] = "violet"
+        monster["speed"] = "medium"
+        monster["points"] = "15"
+for monster in monsters[:5]:
+    print(monster)      
+
