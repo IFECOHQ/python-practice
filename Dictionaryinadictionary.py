@@ -17,4 +17,7 @@ for username, user_info in people.items():
 
     print(f'\tfullname: {full_name.title()}')
     print(f'\tlocation: {'location'}')
+
+name = input('pls input your name') 
+print(f'hello, {name}')    
     
