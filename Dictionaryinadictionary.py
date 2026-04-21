@@ -18,6 +18,13 @@ for username, user_info in people.items():
     print(f'\tfullname: {full_name.title()}')
     print(f'\tlocation: {'location'}')
 
-name = input('pls input your name') 
-print(f'hello, {name}')    
+name = input('pls input your name: eric') 
+print(f'hello, {name}') 
+
+height = input('how to tall are you, in inches? ')
+height = int(height)
+if height <= 25:
+    print('you are eligible')
+else:
+    print('you are not eligible')    
     
